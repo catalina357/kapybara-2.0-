@@ -7,7 +7,7 @@ import telebot
 from config import API_TOKEN
 from telebot.types import (KeyboardButton, ReplyKeyboardMarkup,ReplyKeyboardRemove,Message)
 
-API_TOKEN = '8367973678:AAGZ1OkKguwI3Jd_kvK45ERTQJ8f0TPQbow'
+API_TOKEN = ''
 
 keyboard = ReplyKeyboardMarkup()
 button = KeyboardButton(text = 'Налево', request_location=True)
